@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+
+.container {
+  margin: 0 auto;
+  width: 85%;
+  max-width: 1440px;
+}
+
+.header__title {
+  font-family: 'Rampart One', cursive;
+  font-size: 52px;
+  color: rgba(0, 52, 135, 0.921);
+  text-shadow: 6px 4px 4px rgba(252,255,71,0.38);
+  text-align: center;
+  margin: 30px auto;
+}
+
+.bayan-wrapper__item {
+  width: 80%;
+  margin: 15px auto;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  padding: 15px;
+
+  cursor: pointer;
+}
+
+.bayan-wrapper__item__header {
+  width: 100%;
+  background-color: rgba(0, 52, 135, 0.921);
+  display: flex;
+  padding: 15px;
+  border-radius: 20px;
+
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 26px;
+}
+
+.bayan-wrapper__item__header__title {
+  width: 95%;
+}
+
+.bayan-wrapper__item__header__icon {
+  width: 5%;
+}
+
+.bayan-wrapper__item__header__icon i{
+  text-align: center;
+  color: rgb(252, 254, 156);
+  text-shadow: 3px 1px 5px rgba(64, 64, 64, 0.675);
+}
+
+.bayan-wrapper__item__header__icon i:last-child {
+  display: none;
+}
+
+.bayan-wrapper__item__img {
+  width: 60%;
+  height: 40vh;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.bayan-wrapper__item__img img {
+  width: 100%;
+  object-fit: contain;
+}
