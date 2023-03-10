@@ -1,0 +1,8 @@
+@media (max-width: 2000px) {
+  .header__title {
+    font-size: 9em;
+    text-shadow: 8px 6px 6px rgba(252,255,71,0.38);
+    margin: 10vh auto;
+  }
+  
+}
