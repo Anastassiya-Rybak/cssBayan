@@ -69,6 +69,7 @@
 }
 
 .bayan-wrapper__item input:checked ~  .bayan-wrapper__item__header i {
+  display: block;
   transform: rotate(-0.25turn);
 }  
 
