@@ -10,7 +10,7 @@
   font-family: 'Rampart One', cursive;
   font-size: 3.5em;
   color: rgba(0, 52, 135, 0.921);
-  text-shadow: 6px 4px 4px rgba(252,255,71,0.38);
+  text-shadow: 0.4rem 0.3rem 0.3rem rgba(252,255,71,0.38);
   text-align: center;
   margin: 0.6em auto;
 }
@@ -55,11 +55,15 @@
   opacity: 0.7;
 }
 
+.bayan-wrapper__item:active .bayan-wrapper__item__header__title {
+  color: white;
+}
+
 .bayan-wrapper__item__header i {
   font-size: 1em;
   text-align: center;
   color: rgb(252, 254, 156);
-  text-shadow: 3px 1px 5px rgba(64, 64, 64, 0.675);
+  text-shadow: 0.2rem 0.1rem 0.4rem rgba(64, 64, 64, 0.675);
 
 }
 

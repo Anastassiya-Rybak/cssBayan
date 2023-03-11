@@ -16,6 +16,28 @@
     font-size: 1.2em;
   }
 
+  .bayan-wrapper__item__img {
+    max-height: 20rem;
+    padding-top: 0.3em;  
+    padding-bottom: 0.3em;  
+  }
+}
+
+@media (min-width: 1220px) {
+  .container {
+    max-width: 1440px;
+  }
+
+  .bayan-wrapper__item {
+    width: 80%;
+  }  
+
+  .bayan-wrapper__item__header {
+    border-radius: 0.8rem;
+    font-size: 1.5em;
+    cursor: pointer;
+  }  
+
   .bayan-wrapper__item__header i {
     display: none;
   }
@@ -42,28 +64,6 @@
     display: block;
     transition: all 0.4s;
   }
-
-  .bayan-wrapper__item__img {
-    max-height: 20rem;
-    padding-top: 0.3em;  
-    padding-bottom: 0.3em;  
-  }
-}
-
-@media (min-width: 1220px) {
-  .container {
-    max-width: 1440px;
-  }
-
-  .bayan-wrapper__item {
-    width: 80%;
-  }  
-
-  .bayan-wrapper__item__header {
-    border-radius: 0.8rem;
-    font-size: 1.5em;
-    cursor: pointer;
-  }  
 
   .bayan-wrapper__item__img {
     min-height: 20rem;
