@@ -16,6 +16,10 @@
     font-size: 1.2em;
   }
 
+  .bayan-wrapper__item__header i {
+    display: none;
+  }
+
   .bayan-wrapper:hover .bayan-wrapper__item__header i {
     display: block;
     transition: 1s;

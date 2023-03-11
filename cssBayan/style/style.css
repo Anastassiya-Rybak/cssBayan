@@ -56,7 +56,6 @@
 }
 
 .bayan-wrapper__item__header i {
-  display: none;
   font-size: 1em;
   text-align: center;
   color: rgb(252, 254, 156);
@@ -69,7 +68,6 @@
 }
 
 .bayan-wrapper__item input:checked ~  .bayan-wrapper__item__header i {
-  display: block;
   transform: rotate(-0.25turn);
 }  
 
