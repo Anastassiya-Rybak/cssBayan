@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+
+.container {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.header__title {
+  font-family: 'Rampart One', cursive;
+  font-size: 3.5em;
+  color: rgba(0, 52, 135, 0.921);
+  text-shadow: 0.4rem 0.3rem 0.3rem rgba(252,255,71,0.38);
+  text-align: center;
+  margin: 0.6em auto;
+}
+
+.bayan-wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.bayan-wrapper__item {
+  width: 100%;
+  padding-bottom: 0.2em;
+  margin: 0 auto;
+}
+
+.bayan-wrapper__item__header {
+  max-width: 100%;
+  background-color: rgba(0, 52, 135, 0.921);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7em;
+  border-radius: 0.5rem;
+
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 0.6em;
+}
+
+.bayan-wrapper__item__header__title {
+  font-family: 'Nanum Myeongjo', serif;
+  color: white;
+  font-weight: 800;
+  width: 96%;
+}
+
+.bayan-wrapper__item input:checked .bayan-wrapper__item__header {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.bayan-wrapper__item:active {
+  opacity: 0.7;
+}
+
+.bayan-wrapper__item:active .bayan-wrapper__item__header__title {
+  color: white;
+}
+
+.bayan-wrapper__item__header i {
+  font-size: 1em;
+  text-align: center;
+  color: rgb(252, 254, 156);
+  text-shadow: 0.2rem 0.1rem 0.4rem rgba(64, 64, 64, 0.675);
+
+}
+
+.bayan-wrapper input {
+  display: none;
+}
+
+.bayan-wrapper__item input:checked ~  .bayan-wrapper__item__header i {
+  transform: rotate(-0.25turn);
+}  
+
+.bayan-wrapper__item__img {
+  display: none;
+  width: 100%;
+  height: 25vh;
+  max-height: 11rem;
+  margin: 0 auto;
+  padding-top: 0.1em;
+  overflow: hidden;
+}
+
+.bayan-wrapper__item input:checked ~ .bayan-wrapper__item__img {
+  display: block;
+}
+
+input:checked~label h2 {
+  color: rgb(252, 254, 156);
+}
+
+.bayan-wrapper__item__img img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  animation: showUp 1s ease-in-out;
+}
+
+@keyframes showUp {
+  from {height: 0%;} to {height: 100%;}
+};
